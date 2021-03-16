@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/formulaire.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <strong>Donnez nous votre age</strong> 
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Suivez les instruction</h2>
+        </section>
+
+        <p class="warning"></p>
+        <div class="form" role="form">
+
+            <fieldset>
+                <legend>Saisir votre Age</legend>
+               
+                <form action="form_objet.html" method="get">
+                    <label for="age">Age *</label>
+                    <input type="text" name="age" id="age" placeholder="Votre age" aria-required="true">
+                    <label for="prenom">Prenom *</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prenom" aria-required="true">
+                    <input type="submit" value="Valider le formulaire">
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <footer>&copy;-Redjane Rajabaly Front developer-2021</footer>
+
+    <script src="./src/formulaire.js"></script>
+</body>
+
+</html>
